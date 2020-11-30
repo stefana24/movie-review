@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header >h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container{
+    max-width: 620px;
+    width: 50%;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.5);
+    height: 150px;
+}
+
+form >input{
+    height: 1.3rem;
+}
+
+form>label{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+form>button{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.single-movie-info{
+    border: 1px solid black;
+    padding: .3rem;
+    margin-bottom: .2rem;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 1.2rem;
+}
+
+.not-found{
+    margin: .2rem;
+    padding: .2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
